@@ -21,8 +21,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView?.itemAnimator = DefaultItemAnimator()
         recyclerView?.elevation = 10f
 
-        recyclerView?.adapter = adapter
-        adapter.notifyDataSetChanged()
+        recyclerView?.adapter = adapter 
     }
 
     private fun generateData() : ArrayList<User> {
