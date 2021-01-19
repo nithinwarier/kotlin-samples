@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DaggerHiltSample</string>
+    <string name="string_to_inject">This is test string to inject from resources</string>
+</resources>
